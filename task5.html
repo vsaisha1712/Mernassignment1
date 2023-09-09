@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    td{
+        padding-right: 50px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <table border = "1" style="border: 1px solid black;" >
+        <caption style = "color : blue;"><h1>Registration form</h1></caption>
+        <form>
+        <tr>
+            <td><label>First Name</label></td>
+            <td><input type = "text" /></td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+            <td><input type = "text" /></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type = "email" /></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type = "password" /></td>
+        </tr>
+        <tr>
+            <td><label>Re-enter Password</label></td>
+            <td><input type = "password" /></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td><input type = "radio" name="gen" /> Male
+            <!-- <br /> -->
+            <hr />
+            <input type = "radio" name="gen" /> Female </td>
+        </tr>
+        <tr>
+            <td><label>Age:</label></td>
+            <td><input type = "number" /></td>
+        </tr>
+        <tr>
+            <td><label>Phone Number</label></td>
+            <td><input type = "tel" /></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea name="" id="" cols="60" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>State</label></td>
+            <td><input type = "text" /></td>
+        </tr>
+        <tr>
+            <td><label>Country</label></td>
+            <td><select>
+                <option>Choose your country</option>
+                <option>India</option>
+                <option>US</option>
+                <option>UK</option>
+                <option>Norway</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Languages Konown</label></td>
+            <td><input type = "radio" name = "gen" /> English
+            <input type = "radio" name = "gen" /> Kannada
+            <input type = "radio" name = "gen" /> Hindi
+            <input type = "radio" name = "gen" /> Telugu </td>
+        </tr>
+        <tr >
+            <td colspan="2"><input type="checkbox" id="conf" name="conf" value="English">
+                <label for="conf">Hereby I declare all the given details are true</label></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: right;">Log in to <a href="https://www.ethnus.com" target= "_blank">Ethnus</a> website</p>
+            </td>
+        </tr>
+        
+        </form>
+    </table>
+
+    <p style="white-space: pre;">                                    <button>Register</button></p>
+    
+</body>
+</html>
